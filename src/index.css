@@ -1,13 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "poppins", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #f8fafc;
 }
 
+html{
+  font-size: 62.5%;
+}
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+
+nav {
+  background-color: #333;
+}
+
+.brand-logo {
+  margin-left: 20px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+li {
+  margin-left: 10px;
+}
+.width-component{
+  width: 80%;
+}
+.Free-Consult-link {
+  background: #eb2525 !important;
+  color: #ffffff !important;
+  border-radius: 8px !important;
+  border: none;
+  margin-top: 1px;
+  font-size: 1.4rem;
+  font-weight: 400;
+  padding: 1.2rem 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+  #nav-mobile {
+    display: none;
+  }
 }
