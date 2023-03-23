@@ -1,3 +1,18 @@
+// import React from "react";
+// import "./Accordion.scss";
+// import './accordion.js';
+
+// const Accordion = () => {
+//   return (
+//     <div>
+      
+//     </div>
+//   )
+// }
+// export default Accordion;
+
+
+
 import Accordion from "react-bootstrap/Accordion";
 import "./Accordion.scss";
 
@@ -6,7 +21,7 @@ function Accordions() {
     <Accordion defaultActiveKey="0" className="accordion-width">
       <Accordion.Item eventKey="0">
         <Accordion.Header className="my-accordion-header">
-          <h> Is Generic Viagra as effective as Viagra?</h>
+          <h2> Is Generic Viagra as effective as Viagra?</h2>
         </Accordion.Header>
         <Accordion.Body className="accordion-desc">
           Yes! Generic Viagra contains the same active ingredient as brand-name

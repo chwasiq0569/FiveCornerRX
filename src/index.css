@@ -8,9 +8,7 @@ body {
   background: #f8fafc;
 }
 
-html{
-  font-size: 62.5%;
-}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
@@ -32,11 +30,9 @@ ul {
   display: flex;
 }
 
-li {
-  margin-left: 10px;
-}
 .width-component{
   width: 80%;
+  margin: auto;
 }
 .Free-Consult-link {
   background: #eb2525 !important;
@@ -44,16 +40,10 @@ li {
   border-radius: 8px !important;
   border: none;
   margin-top: 1px;
-  font-size: 1.4rem;
+  font-size: .9rem;
   font-weight: 400;
-  padding: 1.2rem 1.5rem;
+  padding: .8rem 0rem .8rem 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-@media only screen and (max-width: 600px) {
-  #nav-mobile {
-    display: none;
-  }
 }

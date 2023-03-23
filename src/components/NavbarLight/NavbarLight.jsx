@@ -1,6 +1,6 @@
 // import { BrowserRouter as Link } from 'react-router-dom';
 import React from "react";
-import "./Navbar.scss";
+import "./NavbarLight.scss";
 import logo from "../../assets/logo.svg";
 import phone from "../../assets/phone-icon.svg";
 import user from "../../assets/user-icon.svg";

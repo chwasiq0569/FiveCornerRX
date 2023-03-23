@@ -1,6 +1,6 @@
 .hero_section {
   position: relative;
-  // height: 87vh;
+  height: 87vh;
   width: 100%;
   background: #32465e;
   // padding-top: 2rem;
@@ -10,13 +10,6 @@
     #1f2a39 96.65%,
     #151b23 100%
   );
-
-  // .hero-center {
-  //   height: 70vh !important;
-  //   display: flex;
-  //   justify-content: center;
-  //   align-items: center;
-  // }
 }
 
 .benifits-container {
@@ -27,13 +20,13 @@
 .get-treatment-container {
   padding: 6rem 0rem 10rem 0rem;
   h1 {
-    font-size: 3.5rem;
-    font-weight: 600;
+    font-size: 2.5rem;
+    font-weight: 700;
     line-height: 60px;
     color: #0f172a;
   }
   p {
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     font-weight: 400;
     color: #52525b;
   }
@@ -41,8 +34,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 6rem;
-    padding: 0rem 1.5rem;
+    margin-top: 4rem;
+    padding: 0rem 1rem;
     gap: 60px;
 
     .treatment-offers-box {
@@ -57,17 +50,17 @@
       align-items: center;
 
       .offers-p1 {
-        font-size: 1.4rem;
+        font-size: 1rem;
         font-weight: 500;
         color: #52525b;
       }
       h5 {
-        font-size: 2.4rem;
+        font-size: 1.5rem;
         font-weight: 600;
         color: #0f172a;
       }
       .offers-p2 {
-        font-size: 1.65rem;
+        font-size: 1rem;
         font-weight: 400;
         font-style: normal;
         text-align: center;
@@ -88,21 +81,22 @@
     flex-direction: column;
     justify-content: center;
     h2 {
-      font-size: 3.5rem;
+      font-size: 2.3rem;
       font-weight: 700;
-      line-height: 5.8rem;
+      line-height: 3.5rem;
       color: #0f172a;
       margin-bottom: 1rem;
     }
     p {
-      font-size: 1.7rem;
+      font-size: 1.1rem;
       font-weight: 500;
-      line-height: 3.2rem;
+      line-height: 2.2rem;
       color: #3a3a43;
       margin-bottom: 2rem;
     }
     .Free-Consult-link {
-      width: 13rem;
+      width: 9rem;
+      text-align: center;
       img {
         margin-left: 8px;
       }
@@ -114,29 +108,83 @@
 .faqs-container {
   width: 100%;
   margin: auto;
-  padding: 7rem 0rem;
+  padding: 5rem 0rem;
 }
 .faqs-section {
   margin: auto;
   width: 80%;
   h1 {
-    font-size: 3.8rem;
+    font-size: 2.8rem;
     font-weight: 700;
     line-height: 5.8rem;
     color: #0f172a;
     text-align: center;
   }
   p {
-    font-size: 1.4rem;
+    font-size: 0.9rem;
     font-weight: 500;
-    line-height: 3rem;
+    line-height: 2rem;
     text-align: center;
     color: #52525b;
   }
 }
 
 // Get Ready
-.getReady-container{
-  background: #f8fafc;
+.getReady-container {
+  background: #eaeff5;
   padding: 5rem 0rem;
+  .getReady-section {
+    // border: 1px solid red;
+    display: flex;
+    gap: 3rem;
+    height: 75vh;
+    .getReady-img-container {
+      display: flex;
+      width: 45%;
+      border-radius: 24px;
+      background: #dbeafe;
+      // padding: 50px;
+      .getReady-img-box {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        // position: absolute;
+        img {
+          width: 100%;
+        }
+        .getReady-cialis {
+          margin-right: 50px;
+        }
+        .getReady-viagra {
+          margin-left: 20px;
+        }
+      }
+    }
+    .getReady-txt-container {
+      width: 55%;
+      h2 {
+        font-size: 2.8rem;
+        font-weight: 700;
+        line-height: 1rem;
+        color: #151b23;
+        margin-top: 4rem;
+      }
+      h5 {
+        font-size: 2rem;
+        font-weight: 500;
+        line-height: 2.5rem;
+        color: #2563eb;
+        margin-top: 2rem;
+      }
+      p {
+        font-size: 1.1rem;
+        font-weight: 400;
+        line-height: 2rem;
+        color: #52525b;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+      }
+    }
+  }
 }

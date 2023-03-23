@@ -6,10 +6,10 @@ import "bootstrap/dist/js/bootstrap.min.js";
 import Hero from "../../components/Hero/Hero";
 import Navbar from "../../components/Navbar/Navbar";
 import BenifitsCard from "../../components/benifits-card/BenifitsCard";
-import Accordions from "../../components/Accordion/Accordion";
 import { BrowserRouter as Link } from "react-router-dom";
 import { Button } from "react-bootstrap";
 import "./HomePage.scss";
+
 //images
 import freeConsult from "../../assets/freeConsult.svg";
 import shipping from "../../assets/shipping.svg";
@@ -19,10 +19,11 @@ import halfBottle1 from "../../assets/Mask Group 3.svg";
 import drMen from "../../assets/drMen.svg";
 import cialis from "../../assets/cialis.svg";
 import Sildenafil from "../../assets/bottle-design-Tadalafil1.svg";
+import Footer from "../../components/Footer/Footer";
 
 const HomePage = () => {
   return (
-    <div className="HomePage-container">
+    <div className="HomePagecontainer">
       <div className="hero_section">
         <div className="container width-component">
           <Navbar />
@@ -63,12 +64,12 @@ const HomePage = () => {
             <p className="offers-p2">Begins at $3 per pill</p>
             <Link href="#">
               <Button className="Free-Consult-link">
-                Start Now{" "}
+                Start Now
                 <img
                   className="Free-Consult-rightArrow"
                   src={icon}
                   alt="arrow"
-                />{" "}
+                />
               </Button>
             </Link>
             <img src={halfBottle1} alt="" />
@@ -129,19 +130,18 @@ const HomePage = () => {
             Check out our FAQ page for answers on
             <br /> our generic Viagra and Cialis, how effective and safe they
             are, and how our process works.
-          </p>
-          <Accordions />
+          </p>          
         </div>
       </div>
       {/* Get Ready */}
       <div className="getReady-container">
-        <div className="getReady-section">
+        <div className="getReady-section container width-component">
           <div className="getReady-img-container">
             <div className="getReady-img-box">
-              <img src={Sildenafil} alt="get ready" />
+              <img src={Sildenafil} className="getReady-viagra" alt="get ready" />
             </div>
             <div className="getReady-img-box">
-              <img src={cialis} alt="get ready" />
+              <img src={cialis} alt="get ready" className="getReady-cialis" width="350px" height="350px" />
             </div>
           </div>
           <div className="getReady-txt-container">
@@ -158,7 +158,7 @@ const HomePage = () => {
               <Button className="Free-Consult-link">
                 Start Now
                 <img
-                  className="Free-Consult-rightArrow"
+                  className="Free-Consult-rightArrow mx-2"
                   src={icon}
                   alt="arrow"
                 />
@@ -167,6 +167,8 @@ const HomePage = () => {
           </div>
         </div>
       </div>
+      {/* Footer */}
+      <Footer />
     </div>
   );
 };
