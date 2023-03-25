@@ -1,8 +1,8 @@
 import React from "react";
 import { BrowserRouter as Link } from "react-router-dom";
 import Footer from "../../components/Footer/Footer";
-// import HeroLight from "../../components/Hero/HeroLight";
 import NavbarLight from "../../components/NavbarLight/NavbarLight";
+import Faqs from "../../components/Faqs/Faqs";
 import "../HomePage/HomePage.scss";
 import "../SildenafilCitrate/SildenafilCitrate.scss";
 import "../HowItsWork/HowItsWork.scss";
@@ -16,7 +16,6 @@ import online3 from "../../assets/Icon (3).svg";
 
 import Button from "react-bootstrap/Button";
 import HeroLight from "../../components/HeroLight/HeroLight";
-import Faqs from "../../components/Faqs/Faqs";
 
 const SildenafilCitrate = () => {
   return (
@@ -24,7 +23,7 @@ const SildenafilCitrate = () => {
       <div className="hero_section">
         <div className="container width-component">
           <NavbarLight />
-          <HeroLight name="Sildenafil Citrate" />
+          <HeroLight name="Tadalafil Generic" />
         </div>
       </div>
       {/* Verified Things */}
@@ -166,7 +165,7 @@ const SildenafilCitrate = () => {
       </div>
       {/* Online Services */}
       {/* FAQS */}
-      <Faqs/>
+      <Faqs />
       {/* FAQS */}
       {/* Footer */}
       <Footer />

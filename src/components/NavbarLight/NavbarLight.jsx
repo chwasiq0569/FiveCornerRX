@@ -1,9 +1,9 @@
 // import { BrowserRouter as Link } from 'react-router-dom';
 import React from "react";
 import "./NavbarLight.scss";
-import logo from "../../assets/logo.svg";
-import phone from "../../assets/phone-icon.svg";
-import user from "../../assets/user-icon.svg";
+import logo from "../../assets/logoDark.svg";
+import phone from "../../assets/phoneND.svg";
+import user from "../../assets/userND.svg";
 
 import Button from "react-bootstrap/Button";
 import Container from "react-bootstrap/Container";

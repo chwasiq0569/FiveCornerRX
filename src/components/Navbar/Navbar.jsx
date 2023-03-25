@@ -2,8 +2,8 @@
 import React from "react";
 import "./Navbar.scss";
 import logo from "../../assets/logo.svg";
-import phone from "../../assets/phone-icon.svg";
-import user from "../../assets/user-icon.svg";
+import phone from "../../assets/phoneN.svg";
+import user from "../../assets/userN.svg";
 
 import Button from "react-bootstrap/Button";
 import Container from "react-bootstrap/Container";

@@ -4,7 +4,7 @@ import "./Footer.scss";
 import logo from "../../assets/logo.svg";
 import phone from "../../assets/phone-icon.svg";
 import mail from "../../assets/mail.svg";
-import payment from "../../assets/payment-method.svg";
+import payment from "../../assets/visa.jpeg";
 
 const Footer = () => {
   return (
@@ -67,7 +67,7 @@ const Footer = () => {
       </footer>
       <div className="footer-lower">
         <div className="footer-section-lower container width-component d-flex justify-content-between align-items-center">
-          <div className="footer-lower-left">
+          <div className="footer-lower-left ">
             <p>Copyright © UltraPharmRX 2023 . All Rights Reserved</p>
           </div>
           <div className="footer-lower-right">

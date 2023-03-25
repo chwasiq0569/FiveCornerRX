@@ -20,6 +20,7 @@ import drMen from "../../assets/drMen.svg";
 import cialis from "../../assets/cialis.svg";
 import Sildenafil from "../../assets/bottle-design-Tadalafil1.svg";
 import Footer from "../../components/Footer/Footer";
+import Faqs from "../../components/Faqs/Faqs";
 
 const HomePage = () => {
   return (
@@ -27,9 +28,7 @@ const HomePage = () => {
       <div className="hero_section">
         <div className="container width-component">
           <Navbar />
-          {/* <div className="hero-center"> */}
           <Hero />
-          {/* </div> */}
         </div>
       </div>
       {/* Benifits Section */}
@@ -122,26 +121,27 @@ const HomePage = () => {
         </div>
       </div>
       {/* FAQS */}
-      <div className="faqs-container">
-        <div className="faqs-section">
-          <h1>Frequently Asked Questions</h1>
-          <p>
-            Do you have questions about our ED pills? We've got you covered!
-            Check out our FAQ page for answers on
-            <br /> our generic Viagra and Cialis, how effective and safe they
-            are, and how our process works.
-          </p>          
-        </div>
-      </div>
+      <Faqs />
+      {/* FAQS */}
       {/* Get Ready */}
       <div className="getReady-container">
         <div className="getReady-section container width-component">
           <div className="getReady-img-container">
             <div className="getReady-img-box">
-              <img src={Sildenafil} className="getReady-viagra" alt="get ready" />
+              <img
+                src={Sildenafil}
+                className="getReady-viagra"
+                alt="get ready"
+              />
             </div>
             <div className="getReady-img-box">
-              <img src={cialis} alt="get ready" className="getReady-cialis" width="350px" height="350px" />
+              <img
+                src={cialis}
+                alt="get ready"
+                className="getReady-cialis"
+                width="350px"
+                height="350px"
+              />
             </div>
           </div>
           <div className="getReady-txt-container">

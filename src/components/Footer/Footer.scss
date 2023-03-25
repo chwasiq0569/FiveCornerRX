@@ -40,10 +40,16 @@
 }
 
 .footer-lower {
-  padding: 1rem 0rem 0rem 0rem;
+  padding: 0rem 0rem 0rem 0rem;
+  .footer-lower-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
   p {
     font-size: .9rem;
     font-weight: 300;
     color: #52525b;
   }
+}
 }
