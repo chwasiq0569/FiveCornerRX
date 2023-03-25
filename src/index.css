@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
+:root{
+  font-size: 10px;
+}
 body {
   margin: 0;
   font-family: "poppins", sans-serif;
@@ -34,16 +37,36 @@ ul {
   width: 80%;
   margin: auto;
 }
+
+
 .Free-Consult-link {
   background: #eb2525 !important;
   color: #ffffff !important;
   border-radius: 8px !important;
   border: none;
   margin-top: 1px;
-  font-size: .9rem;
+  font-size: 1.5rem;
   font-weight: 400;
-  padding: .8rem 0rem .8rem 1rem;
+  padding: 1.5rem 0rem 1.5rem 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+:focus{
+  outline: none;
+}
+
+
+@media only screen and (max-width: 1028px) {
+  :root{
+    font-size: 9px;
+  } 
+}
+
+@media only screen and (max-width: 767px) {
+  .width-component{
+    width: 100%;
+    /* border: 1px solid red; */
+  }
 }

@@ -8,7 +8,7 @@ import bottleDesign from "../../assets/bottle-design (1).svg";
 const HeroLight = ({name}) => {
   return (
     <div className="container heroMain-container">
-      <div className="row sss flex-direct display-flex justify-content-between align-items-center">
+      <div className="row heroflex flex-direct display-flex justify-content-between align-items-center">
         <div className="order-2 hero-img-container display-flex justify-content-center align-items-center">
           <img className="hero-img" src={bottleDesign} alt="Hero" />
         </div>

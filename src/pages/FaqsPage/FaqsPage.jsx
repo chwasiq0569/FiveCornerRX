@@ -1,4 +1,5 @@
 import React from "react";
+import { BrowserRouter as Link } from 'react-router-dom';
 import { MDBAccordion, MDBAccordionItem } from "mdb-react-ui-kit";
 import "./FaqsPage.scss";
 
@@ -295,9 +296,14 @@ const FaqsPage = () => {
         <div className="StillQuestion-section text-center">
           <h1>Still got a question?</h1>
           <p>
-            If you have more questions, you may send us an email at
-            support@fivecornersrx.com You may also reach us through our
-            toll-free hotline 1-800-240-7624, Monday- Sunday, 9 AM to 6 PM EST.
+            If you have more questions, you may send us an email at{" "}
+            <strong>support@fivecornersrx.com</strong>
+          </p>
+          <p>
+            You may also reach us through our toll-free hotline{" "}
+            <strong>1-800-240-7624,</strong>
+            <br />
+            Monday- Sunday, 9 AM to 6 PM EST.
           </p>
         </div>
       </div>

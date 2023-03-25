@@ -28,6 +28,7 @@ const SildenafilCitrate = () => {
         </div>
       </div>
       {/* Verified Things */}
+      <div className="benifitsBG">
       <div className="benifits-container width-component container display-flex py-5">
         <div className="col-lg-4 d-flex justify-content-center align-items-center">
           <img
@@ -59,6 +60,7 @@ const SildenafilCitrate = () => {
           />
           <p className="card-text">Prescribed by US medical experts</p>
         </div>
+      </div>
       </div>
       {/* Verified Things */}
       {/* Proper Work Telling section */}

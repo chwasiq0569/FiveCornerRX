@@ -1,6 +1,6 @@
 .hero_section {
   position: relative;
-  height: 87vh;
+  height: 87%;
   width: 100%;
   background: #32465e;
   // padding-top: 2rem;
@@ -20,13 +20,13 @@
 .get-treatment-container {
   padding: 6rem 0rem 10rem 0rem;
   h1 {
-    font-size: 2.5rem;
+    font-size: 4rem;
     font-weight: 700;
     line-height: 60px;
     color: #0f172a;
   }
   p {
-    font-size: 1.1rem;
+    font-size: 1.6rem;
     font-weight: 400;
     color: #52525b;
   }
@@ -34,7 +34,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 4rem;
+    margin-top: 5rem;
     padding: 0rem 1rem;
     gap: 60px;
 
@@ -50,17 +50,17 @@
       align-items: center;
 
       .offers-p1 {
-        font-size: 1rem;
+        font-size: 1.6rem;
         font-weight: 500;
         color: #52525b;
       }
       h5 {
-        font-size: 1.5rem;
+        font-size: 2.5rem;
         font-weight: 600;
         color: #0f172a;
       }
       .offers-p2 {
-        font-size: 1rem;
+        font-size: 1.6rem;
         font-weight: 400;
         font-style: normal;
         text-align: center;
@@ -81,21 +81,22 @@
     flex-direction: column;
     justify-content: center;
     h2 {
-      font-size: 2.3rem;
+      font-size: 3.8rem;
       font-weight: 700;
-      line-height: 3.5rem;
+      line-height: 5rem;
       color: #0f172a;
       margin-bottom: 1rem;
     }
     p {
-      font-size: 1.1rem;
+      font-size: 1.7rem;
       font-weight: 500;
       line-height: 2.2rem;
       color: #3a3a43;
       margin-bottom: 2rem;
     }
     .Free-Consult-link {
-      width: 9rem;
+      width: 12rem;
+      font-size: 1.4rem;
       text-align: center;
       img {
         margin-left: 8px;
@@ -114,16 +115,16 @@
   margin: auto;
   width: 80%;
   h1 {
-    font-size: 2.8rem;
+    font-size: 4.6rem;
     font-weight: 700;
-    line-height: 5.8rem;
+    line-height: 7rem;
     color: #0f172a;
     text-align: center;
   }
   p {
-    font-size: 0.9rem;
-    font-weight: 500;
-    line-height: 2rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 2.5rem;
     text-align: center;
     color: #52525b;
   }
@@ -164,23 +165,23 @@
     .getReady-txt-container {
       width: 55%;
       h2 {
-        font-size: 2.8rem;
+        font-size: 4.8rem;
         font-weight: 700;
-        line-height: 1rem;
+        line-height: 3rem;
         color: #151b23;
-        margin-top: 4rem;
+        margin-top: 5rem;
       }
       h5 {
-        font-size: 2rem;
+        font-size: 3.3rem;
         font-weight: 500;
-        line-height: 2.5rem;
+        line-height: 4.2rem;
         color: #2563eb;
         margin-top: 2rem;
       }
       p {
-        font-size: 1.1rem;
+        font-size: 1.8rem;
         font-weight: 400;
-        line-height: 2rem;
+        line-height: 3.8rem;
         color: #52525b;
         margin-top: 2rem;
         margin-bottom: 2rem;
@@ -188,3 +189,50 @@
     }
   }
 }
+
+@media only screen and (max-width: 992px) {
+  .treatment-option-container {
+    padding: 6rem 0rem;
+    .treatment-option-text-container {
+      // border: 1px solid red;
+      width: 50%;
+    }
+    .treatment-option-img-container {
+      width: 50%;
+      // border: 1px solid red;
+      img {
+        width: 100%;
+      }
+    }
+    .treatment-option-text-container {
+      h2 {
+        // font-size: rem;
+        // border: 1px solid red;
+      }
+    }
+  }
+  .treatment-offers-container {
+    // border: 1px solid blue;
+    gap: 20px !important;
+    }
+}
+@media only screen and (max-width: 765px) {
+  // :root{
+  //   font-size: 8px;
+  // }
+  .width-component {
+    width: 100% !important;
+    // border: 1px solid blue;
+    .treatment-offers-container {
+    // border: 1px solid blue;
+    // gap: 20px;
+    }
+  }
+}
+
+
+
+// .benifits-container {
+//   display: flex;
+//   gap: 3rem;
+// }

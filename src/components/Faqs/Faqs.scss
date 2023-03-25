@@ -5,15 +5,15 @@
   .accordionSection {
     border: none !important;
     background-color: transparent !important;
-    width: 80%;
+    width: 70%;
     .accordionItem {
-      font-size: 1rem;
+      font-size: 1.7rem;
       font-weight: 400;
       line-height: 30px;
       color: #52525b;
       background-color: transparent !important;
-      border-bottom: 1px solid #eaecf0;
     }
+    
     .accordionItem:focus{
         outline: none !important;
     }

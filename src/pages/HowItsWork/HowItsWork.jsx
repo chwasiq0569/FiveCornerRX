@@ -53,7 +53,7 @@ const HowItsWork = () => {
             </p>
             <Link href="#">
               <Button className="Free-Consult-link">
-                Start Now
+                Start Now Consultation
                 <img
                   className="Free-Consult-rightArrow mx-3"
                   src={icon}
@@ -81,7 +81,7 @@ const HowItsWork = () => {
               </p>
               <Link href="#">
                 <Button className="Free-Consult-link">
-                  Start Now
+                  Start Now Consultation
                   <img
                     className="Free-Consult-rightArrow mx-3"
                     src={icon}
@@ -110,7 +110,7 @@ const HowItsWork = () => {
             </p>
             <Link href="#">
               <Button className="Free-Consult-link">
-                Start Now
+                Start Now Consultation
                 <img
                   className="Free-Consult-rightArrow mx-3"
                   src={icon}
@@ -130,10 +130,13 @@ const HowItsWork = () => {
             <h2>Chat with us!</h2>
           </div>
           <p>
-            If you have more questions, you may send us an email at <strong>support@fivecornersrx.com</strong>
+            If you have more questions, you may send us an email at{" "}
+            <strong>support@fivecornersrx.com</strong>
           </p>
           <p>
-            You may also reach us through our toll-free hotline <strong>1-800-240-7624,</strong><br/>
+            You may also reach us through our toll-free hotline{" "}
+            <strong>1-800-240-7624,</strong>
+            <br />
             Monday- Sunday, 9 AM to 6 PM EST.
           </p>
           <p>

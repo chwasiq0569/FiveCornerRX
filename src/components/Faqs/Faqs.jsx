@@ -56,7 +56,7 @@ const Faqs = () => {
             </MDBAccordionItem>
             <MDBAccordionItem
               className="accordionItem"
-              collapseId={3}
+              collapseId={4}
               headerTitle="How safe are ED pills?
 "
             >
@@ -68,7 +68,7 @@ const Faqs = () => {
             </MDBAccordionItem>
             <MDBAccordionItem
               className="accordionItem"
-              collapseId={3}
+              collapseId={5}
               headerTitle="Can I take more than the prescribed dosage?
 "
             >
@@ -80,7 +80,7 @@ const Faqs = () => {
             </MDBAccordionItem>
             <MDBAccordionItem
               className="accordionItem"
-              collapseId={3}
+              collapseId={6}
               headerTitle="How can I get a refill of my ED pills?
 "
             >
