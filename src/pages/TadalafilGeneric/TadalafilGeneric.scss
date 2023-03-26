@@ -171,3 +171,36 @@
     }
   }
 }
+
+
+@media only screen and (max-width: 900px) {
+  .Affordable-right{
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .Affordable-section{
+    flex-direction: column !important;
+    .Affordable-left{
+      width: 90% !important;
+    }
+    .Affordable-right{
+      width: 60% !important;
+    }
+  }
+  .OnlineServiceBox-div{
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  .benifits-container{
+    padding: 3rem 3rem !important;
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .OnlineServiceContainer h2{
+    font-size: 3.5rem !important;
+  }
+}

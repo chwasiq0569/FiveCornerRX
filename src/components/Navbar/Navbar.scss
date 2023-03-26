@@ -1,15 +1,15 @@
 .navbar {
   height: 8vh;
   background-color: transparent !important;
-  color: #fff;
-  padding: 0 !important;
+  color: #fff;  
+  padding: 2rem 0rem !important;
   margin: 0 !important;
   .navbar-container {
-    padding: 0;
+    // padding: 3rem 0rem !important;
     display: flex;
     align-items: center;
     .nav-con {
-      padding-top: 10px;
+      padding-top: 10px !important;
       margin-left: 20px;
       .nav-links {
         display: flex;
@@ -41,6 +41,35 @@
             margin-right: 5px;
         }
       }
+    }
+  }
+}
+
+
+
+
+@media only screen and (max-width: 992px) {
+  .navToggle{
+    color: #fafafa !important;
+  }
+  #navbarScroll{
+    background-color: #1f2a39 !important;
+    padding: 1rem 2rem 3rem 1rem;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    .nav-links{
+      font-size: 1.8rem !important;
+      font-weight: 500;
+    }
+    .navPhone{
+      font-weight: 500;
+      margin-left: 20px;
+    }
+    .loginBtn{
+      font-weight: 500;
+      font-size: 1.6rem !important;
+      width: 100px;
     }
   }
 }

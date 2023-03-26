@@ -8,12 +8,12 @@ import bottleDesign from "../../assets/bottle-design (1).svg";
 const Hero = () => {
   return (
     <div className="container heroMain-container">
-      <div className="row border heroflex flex-direct display-flex justify-content-between align-items-center">
+      <div className="row heroflex flex-direct display-flex justify-content-between align-items-center">
         <div className="order-2 hero-img-container display-flex justify-content-center align-items-center">
           <img className="hero-img" src={bottleDesign} alt="Hero" />
         </div>
-        <div className="order-1 txt border display-flex justify-content-right align-items-end">
-          <div className="heroDiv border">
+        <div className="order-1 txt display-flex justify-content-right align-items-end">
+          <div className="heroDiv ">
             <h1 className="homeHero-h1">
               Regain Control of
               <br />
@@ -22,13 +22,13 @@ const Hero = () => {
             <p className="lead">
               Obtain AUTHENTIC FDA-approved medication for ED in under 5
               minutes.
-              <br /> No face-to-face medical consultations, no medical bills,
+               No face-to-face medical consultations, no medical bills,
               and no
-              <br /> insurance necessary.
+              insurance necessary.
             </p>
             <Link href="#">
               <Button className="Free-Consult-link">
-                Start FREE Consultation{" "}
+                Start FREE Consultation
                 <img
                   className="Free-Consult-rightArrow"
                   src={icon}

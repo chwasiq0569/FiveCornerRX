@@ -17,7 +17,7 @@ const Faqs = () => {
         </p>
         {/* <Faqs/> */}
 
-        <div className="accordion">
+        <div className="accordion border">
           <MDBAccordion flush initialActive={1} className="accordionSection">
             <MDBAccordionItem
               className="accordionItem"

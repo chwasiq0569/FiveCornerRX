@@ -78,24 +78,41 @@
     }
   }
 }
-@media only screen and (max-width: 765px) {
-  .heroMain-container{
-    .heroflex{
-      flex-direction: column;
-      text-align: center;
-      .heroDiv{
-        
-      .homeHero-h1{
-        text-align: center;
-        font-size: 2rem;
-      }
+@media only screen and (max-width: 867px) {
+  .heroDiv{
+    // border: 1px solid red !important;
+    .homeHero-h1{
+      font-size: 3.5rem;
     }
-      .lead{
-        text-align: center;
-      }
-      .Free-Consult-link{
-        margin: auto;
-      }
+    .lead{
+      font-size: 1.2rem;
+    }
+    .safe-text-p{
+      font-size: 1.2rem;
+    }
+  }
+}
+
+
+@media only screen and (max-width: 620px) {
+
+  .heroflex{
+      text-align: center;
+    flex-direction: column;
+    .hero-img-container{
+      width: 100% !important;
+    }
+    .txt{
+      width: 100% !important;
+    }
+    .homeHero-h1{
+      text-align: center;
+    }
+    .lead{
+      text-align: center;
+    }
+    .Free-Consult-link{
+      margin: auto;
     }
   }
 }

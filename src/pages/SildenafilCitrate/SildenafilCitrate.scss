@@ -1,6 +1,6 @@
 .hero_section {
   position: relative;
-  height: 87vh;
+  height: 87%;
   width: 100%;
   background: #eff5fb;
   background: linear-gradient(-125deg, #eff5fb 0%, #dbeafe 100%, #e6e6e8 100%);
@@ -59,6 +59,8 @@
       margin-left: -20px;
       img {
         margin-right: 10px;
+        // min-height: 300px;
+
       }
       .card-text {
         font-weight: 500;
@@ -137,7 +139,6 @@
     h2 {
       font-size: 4.2rem;
       font-weight: 700;
-      line-height: 61px;
       color: #0f172a;
     }
     .OnlineServiceBox-div {
@@ -145,6 +146,7 @@
       justify-content: space-between;
       align-items: center;
       padding-top: 5rem;
+      padding: 5rem 1rem;
       // gap: 7.5rem;
       .OnlineServiceBox {
         img{
@@ -169,5 +171,38 @@
         }
       }
     }
+  }
+}
+
+
+@media only screen and (max-width: 900px) {
+  .Affordable-right{
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .Affordable-section{
+    flex-direction: column !important;
+    .Affordable-left{
+      width: 90% !important;
+    }
+    .Affordable-right{
+      width: 60% !important;
+    }
+  }
+  .OnlineServiceBox-div{
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  .benifits-container{
+    padding: 3rem 3rem !important;
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .OnlineServiceContainer h2{
+    font-size: 3.5rem !important;
   }
 }

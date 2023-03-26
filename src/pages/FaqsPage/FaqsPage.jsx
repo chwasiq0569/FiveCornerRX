@@ -66,7 +66,7 @@ const FaqsPage = () => {
               </MDBAccordionItem>
               <MDBAccordionItem
                 className="accordionItem"
-                collapseId={3}
+                collapseId={4}
                 headerTitle="Delivery"
               >
                 Yes! Generic Viagra contains the same active ingredient as

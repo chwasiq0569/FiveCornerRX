@@ -28,7 +28,7 @@ function NavScrollExample() {
             <Nav.Link href="#action2" className="nav-links">FAQs</Nav.Link>
           </Nav>
           <Nav className="d-flex right-menu">
-            <Nav.Link href="#action1" className="nav-links"><img src={phone} alt="" />1-800-240-7624</Nav.Link>
+            <Nav.Link href="#action1" className="nav-links navPhone"><img src={phone} alt="" />1-800-240-7624</Nav.Link>
             <Button variant="light" className="loginBtn"><img src={user} alt="" />Login</Button>
           </Nav>
         </Navbar.Collapse>

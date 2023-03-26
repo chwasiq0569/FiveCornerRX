@@ -1,5 +1,5 @@
 .HomePagecontainer {
-    background-color: #ffffff;
+  background-color: #ffffff;
   .howitswork-container {
     width: 85%;
     margin: auto;
@@ -95,6 +95,50 @@
       text-align: center;
       color: #52525b;
       margin-top: 20px;
+    }
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .howitswork-container {
+    width: 100% !important;
+  }
+  .chatWithUs-conatiner {
+    .chatWithUs-section {
+      width: 90% !important;
+      width: 1px solid red !important;
+    }
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .howitswork-container {
+    h1 {
+      font-size: 4rem !important;
+    }
+    p {
+      font-size: 1.8rem !important;
+    }
+  }
+}
+
+@media only screen and (max-width: 765px) {
+  .mainWorkscontainer-box {
+    flex-direction: column;
+    .freeHealthImg {
+      width: 100% !important;
+      padding: 0rem 1rem;
+    }
+    .freeHealthtxt {
+      width: 100% !important;
+    }
+  }
+  .longterm-section {
+    .mainWorkscontainer-box {
+      flex-direction: column !important;
+      .freeHealthtxt {
+        padding: 0rem 1rem !important;
+      }
     }
   }
 }

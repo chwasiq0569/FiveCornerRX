@@ -93,7 +93,7 @@ const HomePage = () => {
       </div>
       {/* Treatment Option */}
       <div className="treatment-option-container">
-        <div className="container width-component d-flex">
+        <div className="container width-component treatment-option-container-flex  d-flex">
           <div className="treatment-option-text-container">
             <h2>
               Which Treatment Option

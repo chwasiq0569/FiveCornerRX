@@ -17,7 +17,7 @@ function NavScrollExample() {
         <Navbar.Brand href="#" >
           <img src={logo} alt="" />
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="navbarScroll" />
+        <Navbar.Toggle aria-controls="navbarScroll" className="navToggle" />
         <Navbar.Collapse id="navbarScroll">
           <Nav 
             className="me-auto my-2 my-lg-0 nav-con"
@@ -28,7 +28,7 @@ function NavScrollExample() {
             <Nav.Link href="#action2" className="nav-links">FAQs</Nav.Link>
           </Nav>
           <Nav className="d-flex right-menu">
-            <Nav.Link href="#action1" className="nav-links"><img src={phone} alt="" />1-800-240-7624</Nav.Link>
+            <Nav.Link href="#action1" className="nav-links navPhone"><img src={phone} alt="" />1-800-240-7624</Nav.Link>
             <Button variant="light" className="loginBtn"><img src={user} alt="" />Login</Button>
           </Nav>
         </Navbar.Collapse>
