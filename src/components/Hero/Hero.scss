@@ -1,5 +1,4 @@
 .heroMain-container {
-  // border: 1px solid red;
   .heroflex {
     display: flex !important;
     width: 100%;
@@ -18,7 +17,7 @@
     }
   }
 
-  .homeHero-h1 {
+  .homeHero-h1Dark {
     font-family: "poppins";
     font-size: 5.5rem;
     font-weight: 600;
@@ -26,7 +25,7 @@
     color: #ffffff;
     margin-top: 3rem;
   }
-  .lead {
+  .leadDark {
     font-size: 1.6rem;
     text-align: left;
     font-weight: 400;
@@ -64,10 +63,10 @@
 
 @media only screen and (max-width: 995px) {
   .heroflex {
-    .homeHero-h1 {
+    .homeHero-h1Dark {
       font-size: 4rem;
     }
-    .lead{
+    .leadDark{
     font-size: 1.4rem;
     }
     .Free-Consult-link{
@@ -81,10 +80,10 @@
 @media only screen and (max-width: 867px) {
   .heroDiv{
     // border: 1px solid red !important;
-    .homeHero-h1{
+    .homeHero-h1Dark{
       font-size: 3.5rem;
     }
-    .lead{
+    .leadDark{
       font-size: 1.2rem;
     }
     .safe-text-p{
@@ -105,10 +104,10 @@
     .txt{
       width: 100% !important;
     }
-    .homeHero-h1{
+    .homeHero-h1Dark{
       text-align: center;
     }
-    .lead{
+    .leadDark{
       text-align: center;
     }
     .Free-Consult-link{

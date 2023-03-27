@@ -14,12 +14,12 @@ const Hero = () => {
         </div>
         <div className="order-1 txt display-flex justify-content-right align-items-end">
           <div className="heroDiv ">
-            <h1 className="homeHero-h1">
+            <h1 className="homeHero-h1Dark">
               Regain Control of
               <br />
               Erectile Dysfunction
             </h1>
-            <p className="lead">
+            <p className="leadDark">
               Obtain AUTHENTIC FDA-approved medication for ED in under 5
               minutes.
                No face-to-face medical consultations, no medical bills,

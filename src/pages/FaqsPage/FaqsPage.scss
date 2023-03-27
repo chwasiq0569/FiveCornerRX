@@ -1,6 +1,6 @@
 .HomePagecontainer {
   background-color: #fff;
-  .hero_section {
+  .hero_sectionFaqsPage {
     height: 400px;
     background: #e6e6e8;
     .faqHero {
@@ -78,7 +78,6 @@
 @media only screen and (max-width: 994px) {
   .faqHero {
     width: 100% !important;
-    // border: 1px solid red;
     h1 {
       font-size: 6.5rem;
       font-weight: 700;
@@ -94,10 +93,10 @@
   .FaqsPage-section {
     flex-direction: column;
     .a-small {
-      // border: 1px solid red;
       margin-left: 0rem !important;
       margin-bottom: 2rem;
       padding: 0rem 1rem;
+      width: 100%;
     }
     .a-large {
       // border: 1px solid red;
@@ -111,7 +110,6 @@
     padding: 0rem 1rem;
     .StillQuestion-container {
       width: 100% !important;
-      // border: 1px solid red !important;
     }
   }
 }

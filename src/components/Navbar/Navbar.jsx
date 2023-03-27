@@ -12,13 +12,13 @@ import Navbar from "react-bootstrap/Navbar";
 
 function NavScrollExample() {
   return (
-    <Navbar bg="light" expand="lg" className="navbar">
+    <Navbar bg="dark" expand="lg" className="navbar">
       <Container fluid className="navbar-container">
         <Navbar.Brand href="#" >
-          <img src={logo} alt="" />
+          <img src={logo} alt="" className="logimg" />
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="navbarScroll" className="navToggle" />
-        <Navbar.Collapse id="navbarScroll">
+        <Navbar.Toggle aria-controls="basic-navbar-nav" className="navToggle" />
+        <Navbar.Collapse id="navbarScroll" className="navbarScroll">
           <Nav 
             className="me-auto my-2 my-lg-0 nav-con"
             style={{ maxHeight: "100px" }}

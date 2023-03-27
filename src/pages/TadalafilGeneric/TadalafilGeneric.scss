@@ -1,6 +1,6 @@
-.hero_section {
+.hero_sectionTadalafilGeneric {
   position: relative;
-  height: 87vh;
+  height: 87%;
   width: 100%;
   background: #eff5fb;
   background: linear-gradient(-125deg, #eff5fb 0%, #dbeafe 100%, #e6e6e8 100%);
@@ -60,9 +60,12 @@
       img {
         margin-right: 10px;
       }
+      .dddd{
+        font-size: 2.5rem !important;
+      }
       .card-text {
         font-weight: 500;
-        font-size: 1.5rem;
+        font-size: 1.5rem !important;
       }
     }
   }

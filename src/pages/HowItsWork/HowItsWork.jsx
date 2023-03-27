@@ -3,7 +3,7 @@ import Navbar from "../../components/Navbar/Navbar";
 import { BrowserRouter as Link } from "react-router-dom";
 import { Button } from "react-bootstrap";
 import Footer from "../../components/Footer/Footer";
-import "../HomePage/HomePage.scss";
+// import "../HomePage/HomePage.scss";
 import "./HowItsWork.scss";
 
 //image
@@ -15,9 +15,9 @@ import wave from "../../assets/wave.svg";
 
 const HowItsWork = () => {
   return (
-    <div className="HomePagecontainer">
-      <div className="hero_section">
-        <div className="container width-component">
+    <div className="HowItsWOrkcontainer">
+      <div className="hero_sectionHowItsWork">
+        <div className="container width-component mainHOWITSWORK">
           <Navbar />
           <div className="howitswork-container">
             <h1>How it works</h1>

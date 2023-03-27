@@ -10,7 +10,7 @@ import Footer from "../../components/Footer/Footer";
 const FaqsPage = () => {
   return (
     <div className="HomePagecontainer">
-      <div className="hero_section">
+      <div className="hero_sectionFaqsPage">
         <div className="container width-component">
           <NavbarLight />
           <div className="faqHero order">

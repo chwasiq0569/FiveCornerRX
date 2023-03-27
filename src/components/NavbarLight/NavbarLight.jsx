@@ -12,12 +12,12 @@ import Navbar from "react-bootstrap/Navbar";
 
 function NavScrollExample() {
   return (
-    <Navbar bg="light" expand="lg" className="navbar">
+    <Navbar bg="light" expand="lg" className="navbarLight">
       <Container fluid className="navbar-container">
         <Navbar.Brand href="#" >
           <img src={logo} alt="" />
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="navbarScroll" />
+        <Navbar.Toggle aria-controls="navbarScroll" className="navToggleLight"/>
         <Navbar.Collapse id="navbarScroll">
           <Nav 
             className="me-auto my-2 my-lg-0 nav-con"

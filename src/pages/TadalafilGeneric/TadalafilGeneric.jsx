@@ -3,9 +3,9 @@ import { BrowserRouter as Link } from "react-router-dom";
 import Footer from "../../components/Footer/Footer";
 import NavbarLight from "../../components/NavbarLight/NavbarLight";
 import Faqs from "../../components/Faqs/Faqs";
-import "../HomePage/HomePage.scss";
-import "../SildenafilCitrate/SildenafilCitrate.scss";
-import "../HowItsWork/HowItsWork.scss";
+import "../TadalafilGeneric/TadalafilGeneric.scss";
+// import "../HomePage/HomePage.scss";
+// import "../HowItsWork/HowItsWork.scss";
 
 import tickVerified from "../../assets/tick-circle.svg";
 import icon from "../../assets/Icon.svg";
@@ -17,16 +17,17 @@ import online3 from "../../assets/Icon (3).svg";
 import Button from "react-bootstrap/Button";
 import HeroLight from "../../components/HeroLight/HeroLight";
 
-const SildenafilCitrate = () => {
+const TadalafilGeneric = () => {
   return (
     <div className="HomePagecontainer">
-      <div className="hero_section">
+      <div className="hero_sectionTadalafilGeneric">
         <div className="container width-component">
           <NavbarLight />
           <HeroLight name="Tadalafil Generic" />
         </div>
       </div>
       {/* Verified Things */}
+      <div className="benifitsBG">
       <div className="benifits-container width-component container display-flex py-5">
         <div className="col-lg-4 d-flex justify-content-center align-items-center">
           <img
@@ -58,6 +59,7 @@ const SildenafilCitrate = () => {
           />
           <p className="card-text">Prescribed by US medical experts</p>
         </div>
+      </div>
       </div>
       {/* Verified Things */}
       {/* Proper Work Telling section */}
@@ -174,4 +176,4 @@ const SildenafilCitrate = () => {
   );
 };
 
-export default SildenafilCitrate;
+export default TadalafilGeneric;

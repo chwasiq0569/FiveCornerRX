@@ -1,15 +1,11 @@
 .hero_section {
   position: relative;
-  height: 87%;
+  height: 87% !important;
+  // border: 1px solid red;
   width: 100%;
-  background: #32465e;
+  // background: #32465e;
   padding-bottom: 2rem;
-  background: linear-gradient(
-    -125deg,
-    #32465e 0%,
-    #1f2a39 96.65%,
-    #151b23 100%
-  );
+  background: linear-gradient(-125deg,#32465e 0%,#1f2a39 96.65%,#151b23 100%) !important;
 }
 
 .benifits-container {

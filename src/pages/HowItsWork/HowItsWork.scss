@@ -1,7 +1,11 @@
-.HomePagecontainer {
+.HowItsWOrkcontainer {
   background-color: #ffffff;
+  .hero_sectionHowItsWork{
+  background: linear-gradient(-125deg,#32465e 0%,#1f2a39 96.65%,#151b23 100%);
+    padding-bottom: 3rem;
+  .mainHOWITSWORK{
   .howitswork-container {
-    width: 85%;
+  width: 85%;
     margin: auto;
     text-align: center;
     padding-top: 6rem;
@@ -20,6 +24,8 @@
       color: #f8fafc;
     }
   }
+}
+}
 
   .mainWorkscontainer {
     background: #ffffff;
@@ -106,7 +112,6 @@
   .chatWithUs-conatiner {
     .chatWithUs-section {
       width: 90% !important;
-      width: 1px solid red !important;
     }
   }
 }

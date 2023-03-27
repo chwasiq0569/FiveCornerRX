@@ -1,11 +1,11 @@
 import React from "react";
 import { BrowserRouter as Link } from "react-router-dom";
 import Footer from "../../components/Footer/Footer";
-// import HeroLight from "../../components/Hero/HeroLight";
 import NavbarLight from "../../components/NavbarLight/NavbarLight";
-import "../HomePage/HomePage.scss";
 import "../SildenafilCitrate/SildenafilCitrate.scss";
-import "../HowItsWork/HowItsWork.scss";
+// import "../HomePage/HomePage.scss";
+
+
 
 import tickVerified from "../../assets/tick-circle.svg";
 import icon from "../../assets/Icon.svg";
@@ -21,7 +21,7 @@ import Faqs from "../../components/Faqs/Faqs";
 const SildenafilCitrate = () => {
   return (
     <div className="HomePagecontainer">
-      <div className="hero_section">
+      <div className="hero_sectionSildenafilCitrate">
         <div className="container width-component">
           <NavbarLight />
           <HeroLight name="Sildenafil Citrate" />
