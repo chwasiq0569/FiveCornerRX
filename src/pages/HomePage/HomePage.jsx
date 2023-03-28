@@ -20,7 +20,8 @@ import drMen from "../../assets/drMen.svg";
 import cialis from "../../assets/cialis.svg";
 import Sildenafil from "../../assets/bottle-design-Tadalafil1.svg";
 import Footer from "../../components/Footer/Footer";
-import Faqs from "../../components/Faqs/Faqs";
+import Accordion from "../../components/Accordion/Accordion";
+// import Faqs from "../../components/Faqs/Faqs";
 
 const HomePage = () => {
   return (
@@ -120,9 +121,45 @@ const HomePage = () => {
           </div>
         </div>
       </div>
-      {/* FAQS */}
-      <Faqs />
-      {/* FAQS */}
+      {/* FAQS Section */}
+      <div className="accordion">
+        <h1>Frequently Asked Questions</h1>
+        <p>
+          Do you have questions about our ED pills? We've got you covered! Check
+          out our FAQ page for answers on
+          <br /> our generic Viagra and Cialis, how effective and safe they are,
+          and how our process works.
+        </p>
+        <div className="accordion-wrapper">
+          <Accordion
+            title="Is Generic Viagra as effective as Viagra?"
+            content="Yes! Generic Viagra contains the same active ingredient as brand-name Viagra and is just as effective in treating ED. In fact, the only difference is the price. Five Corners Rx's U.S.-based pharmacy ensures that our generic Viagra meets the same quality, safety, and efficacy standards as the brand-name version."
+            isOpen={true}
+          />
+          <Accordion
+            title="Is Generic Cialis as effective as Cialis?"
+            content="Yes! Generic Viagra contains the same active ingredient as brand-name Viagra and is just as effective in treating ED. In fact, the only difference is the price. "
+          />
+          <Accordion
+            title="Do I need to be on a video call with a doctor?"
+            content="Yes! Generic Viagra contains the same active ingredient as brand-name Viagra and is just as effective in treating ED. In fact, the only difference is the price. "
+          />
+          <Accordion
+            title="How safe are ED pills?"
+            content="Yes! Generic Viagra contains the same active ingredient as brand-name Viagra and is just as effective in treating ED. In fact, the only difference is the price. "
+          />
+          <Accordion
+            title="Can I take more than the prescribed dosage?"
+            content="Yes! Generic Viagra contains the same active ingredient as brand-name Viagra and is just as effective in treating ED. In fact, the only difference is the price. "
+          />
+          <Accordion
+            title="How can I get a refill of my ED pills?"
+            content="Yes! Generic Viagra contains the same active ingredient as brand-name Viagra and is just as effective in treating ED. In fact, the only difference is the price. "
+          />
+        </div>
+      </div>      
+      {/* FAQS Section */}
+
       {/* Get Ready */}
       <div className="getReady-container">
         <div className="getReady-section container width-component">

@@ -2,9 +2,10 @@ import React from "react";
 import { BrowserRouter as Link } from "react-router-dom";
 import Footer from "../../components/Footer/Footer";
 import NavbarLight from "../../components/NavbarLight/NavbarLight";
-import Faqs from "../../components/Faqs/Faqs";
+import Accordion from "../../components/Accordion/Accordion";
 import "../TadalafilGeneric/TadalafilGeneric.scss";
 // import "../HomePage/HomePage.scss";
+// import Faqs from "../../components/Faqs/Faqs";
 // import "../HowItsWork/HowItsWork.scss";
 
 import tickVerified from "../../assets/tick-circle.svg";
@@ -28,38 +29,38 @@ const TadalafilGeneric = () => {
       </div>
       {/* Verified Things */}
       <div className="benifitsBG">
-      <div className="benifits-container width-component container display-flex py-5">
-        <div className="col-lg-4 d-flex justify-content-center align-items-center">
-          <img
-            className=""
-            width="30px"
-            height="30px"
-            src={tickVerified}
-            alt="Card"
-          />
-          <p className="card-text">Free, discreet 2-day shipping</p>
+        <div className="benifits-container width-component container display-flex py-5">
+          <div className="col-lg-4 d-flex justify-content-center align-items-center">
+            <img
+              className=""
+              width="30px"
+              height="30px"
+              src={tickVerified}
+              alt="Card"
+            />
+            <p className="card-text">Free, discreet 2-day shipping</p>
+          </div>
+          <div className="col-lg-4 d-flex justify-content-center align-items-center">
+            <img
+              className=""
+              width="30px"
+              height="30px"
+              src={tickVerified}
+              alt="Card"
+            />
+            <p className="card-text">100% Safe. Verified. FDA-Approved.</p>
+          </div>
+          <div className="col-lg-4 d-flex justify-content-center align-items-center">
+            <img
+              className=""
+              width="30px"
+              height="30px"
+              src={tickVerified}
+              alt="Card"
+            />
+            <p className="card-text">Prescribed by US medical experts</p>
+          </div>
         </div>
-        <div className="col-lg-4 d-flex justify-content-center align-items-center">
-          <img
-            className=""
-            width="30px"
-            height="30px"
-            src={tickVerified}
-            alt="Card"
-          />
-          <p className="card-text">100% Safe. Verified. FDA-Approved.</p>
-        </div>
-        <div className="col-lg-4 d-flex justify-content-center align-items-center">
-          <img
-            className=""
-            width="30px"
-            height="30px"
-            src={tickVerified}
-            alt="Card"
-          />
-          <p className="card-text">Prescribed by US medical experts</p>
-        </div>
-      </div>
       </div>
       {/* Verified Things */}
       {/* Proper Work Telling section */}
@@ -166,9 +167,44 @@ const TadalafilGeneric = () => {
         </div>
       </div>
       {/* Online Services */}
-      {/* FAQS */}
-      <Faqs />
-      {/* FAQS */}
+      {/* FAQS Section */}
+      <div className="accordion">
+        <h1>Frequently Asked Questions</h1>
+        <p>
+          Do you have questions about our ED pills? We've got you covered! Check
+          out our FAQ page for answers on
+          <br /> our generic Viagra and Cialis, how effective and safe they are,
+          and how our process works.
+        </p>
+        <div className="accordion-wrapper">
+          <Accordion
+            title="Is Generic Viagra as effective as Viagra?"
+            content="Yes! Generic Viagra contains the same active ingredient as brand-name Viagra and is just as effective in treating ED. In fact, the only difference is the price. Five Corners Rx's U.S.-based pharmacy ensures that our generic Viagra meets the same quality, safety, and efficacy standards as the brand-name version."
+            isOpen={true}
+          />
+          <Accordion
+            title="Is Generic Cialis as effective as Cialis?"
+            content="Yes! Generic Viagra contains the same active ingredient as brand-name Viagra and is just as effective in treating ED. In fact, the only difference is the price. "
+          />
+          <Accordion
+            title="Do I need to be on a video call with a doctor?"
+            content="Yes! Generic Viagra contains the same active ingredient as brand-name Viagra and is just as effective in treating ED. In fact, the only difference is the price. "
+          />
+          <Accordion
+            title="How safe are ED pills?"
+            content="Yes! Generic Viagra contains the same active ingredient as brand-name Viagra and is just as effective in treating ED. In fact, the only difference is the price. "
+          />
+          <Accordion
+            title="Can I take more than the prescribed dosage?"
+            content="Yes! Generic Viagra contains the same active ingredient as brand-name Viagra and is just as effective in treating ED. In fact, the only difference is the price. "
+          />
+          <Accordion
+            title="How can I get a refill of my ED pills?"
+            content="Yes! Generic Viagra contains the same active ingredient as brand-name Viagra and is just as effective in treating ED. In fact, the only difference is the price. "
+          />
+        </div>
+      </div>
+      {/* FAQS Section */}
       {/* Footer */}
       <Footer />
       {/* Footer */}
